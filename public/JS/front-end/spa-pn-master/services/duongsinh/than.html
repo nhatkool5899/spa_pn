@@ -1,0 +1,716 @@
+<!doctype html>
+<html class="" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Spa Phuc Ngan</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link href="https://res.cloudinary.com/spaphucngan/image/upload/v1639057154/images/logo_budhh4.png"
+        type="images/x-icon" rel="shortcut icon">
+    <!-- All css files are included here. -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/core.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <!-- customizer style css -->
+    <link href="#" data-style="styles" rel="stylesheet">
+    <!-- Modernizr JS -->
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+        .main {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        #img-top {
+            width: 100%;
+        }
+
+        .muc-luc>.col>.col-inner {
+            background-color: #d5e5f5 !important;
+            padding: 20px !important;
+        }
+
+        .entry-content ol li {
+            margin-left: 1.3em;
+        }
+
+        li {
+            margin-bottom: 0.6em;
+        }
+
+        .muc-luc {
+            border-radius: 15px !important;
+        }
+
+        .list-item {
+            width: 100%;
+            background-color: rgb(211, 246, 245);
+            height: 340px;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .list-item p {
+            font-size: 20px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .list-item ul {
+            padding-left: 15px;
+        }
+
+        .list-item ul li {
+            list-style: decimal;
+            font-size: 16px;
+            padding-bottom: 8px;
+
+        }
+
+        #gioithieu {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .title-item {
+            font-size: 20px;
+            font-weight: 500;
+            font-family: "Roboto", sans-serif;
+            width: 100%;
+            border-bottom: 2px solid #23527c;
+            padding-bottom: 7px !important;
+        }
+
+        .list-content {
+            color: #757575;
+            font-size: 16px;
+            margin-top: 9px;
+
+
+        }
+
+        .list-content ul {
+            padding-left: 20px;
+        }
+
+        .list-content ul li::before {
+            content: "\2022";
+            color: #23527c;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        #gioithieu ul li::before {
+            content: "\2022";
+            color: #23527c;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: 2em;
+        }
+
+        #hieuqua-uudiem {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        #ketqua {
+            width: 100%;
+            margin: 0 auto;
+
+
+        }
+
+        #quytrinh .box {
+            height: 280px !important;
+
+        }
+
+        #quytrinh .box img {
+            height: 235px;
+            border-bottom: 1px solid white;
+        }
+    </style>
+</head>
+<script>
+    $(document).ready(function () {
+        $('a[href*=\\#]').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 500);
+        });
+    });
+</script>
+
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="wrapper white-bg">
+        <!--header section start-->
+        <!--header section start-->
+        <div class="header">
+            <div class="header-bottom sticky-header">
+                <div class="container">
+                    <div class="mgea-full-width">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-6 col-xs-9">
+                                <div class="logo">
+                                    <a href="../../index.html"><img
+                                            src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057373/images/logo/logo_dzoj0z.png"
+                                            width="100%" height="60px" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-md-8 hidden-sm hidden-xs">
+                                <div class="menu">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="../gioithieu.html">Về chúng tôi</a>
+
+                                            </li>
+                                            <li class="mega-parent item-2"><a
+                                                    href="https://www.facebook.com/phucngan.spa">Chi nhánh</a>
+
+                                            </li>
+
+
+                                            <li class="mega-parent"><a href="#">Dịch vụ <i
+                                                        class="fas fa-angle-down"></i></a>
+                                                <ul class="mgea-menu">
+                                                    <li class="mega-sub"><a class="sub-title">Chuyên về da</a>
+                                                        <ul class="mega-sub-item">
+                                                            <li><a href="../dieutrida/trimun.html">Chuyên về mụn</a>
+                                                            </li>
+                                                            <li><a href="../dieutrida/trinam.html">Chuyên về nám tàn
+                                                                    nhan</a></li>
+                                                            <li><a href="../dieutrida/trietlong.html">Triệt lông</a>
+                                                            </li>
+                                                            <li><a href="../dieutrida/tamtrang.html">Tắm trắng</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mega-sub"><a href="#" class="sub-title">Dưỡng sinh</a>
+                                                        <ul class="mega-sub-item">
+                                                            <li><a href="./vungdau.html">Vùng đầu</a></li>
+                                                            <li><a href="./vaigay.html">Cổ vai gáy</a></li>
+                                                            <li><a href="./gan.html">Gan</a></li>
+                                                            <li><a href="#">Thận</a></li>
+                                                            <li><a href="./phonghan.html">Phong hàn</a></li>
+                                                            <li><a href="./tyvi.html">Tỳ vị</a></li>
+
+                                                        </ul>
+                                                    </li>
+
+                                                    <li class="mega-sub"><a href="#" class="sub-title">Phun thêu thẩm
+                                                            mỹ</a>
+                                                        <ul class="mega-sub-item">
+                                                            <li><a href="../phuntheu/chanmay.html">Phun thêu mày</a>
+                                                            </li>
+                                                            <li><a href="../phuntheu/moi.html">Phun môi</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mega-sub"><a href="#" class="sub-title">Xông hơi giảm
+                                                            mỡ</a>
+                                                        <ul class="mega-sub-item">
+                                                            <li><a href="../xonghoi/xonghoi.html">Xông hơi</a></li>
+                                                            <li><a href="../xonghoi/xongchan.html">Xông chân thải
+                                                                    độc</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal">Khuyến mãi</a>
+                                            </li>
+                                            <li><a href="../../tin-tuc/tintuc.html">Tin tức</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#modalVideo">Góp ý phản
+                                                    hồi</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 col-xs-3">
+                                <div class="header-action-box">
+                                    <div class="mini-cart">
+
+                                        <a href="#" class="button-header">Tư vấn miễn phí</a>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile menu start -->
+                <div class="mobile-menu-area hidden-lg hidden-md">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <nav id="dropdown">
+                                <ul>
+                                    <li><a href="../gioithieu.html">Về Chúng Tôi</a>
+
+                                    </li>
+                                    <li><a href="#">Chuyên về da</a>
+                                        <ul class="dropdown_menu">
+
+                                            <li class="mega-sub"><a href="../dieutrida/trimun.html">Chuyên về mụn</a>
+                                            </li>
+                                            <li class="mega-sub"><a href="../dieutrida/trinam.html">Chuyên về nám tàn
+                                                    nhan</a></li>
+                                            <li class="mega-sub"><a href="../dieutrida/trietlong.html">Triệt lông</a>
+                                            </li>
+                                            <li class="mega-sub"><a href="../dieutrida/tamtrang.html">Tắm trắng</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="#">Dưỡng sinh</a>
+                                        <ul class="dropdown_menu">
+                                            <li><a href="./vungdau.html">Vùng đầu</a></li>
+                                            <li><a href="./vaigay.html">Cổ vai gáy</a></li>
+                                            <li><a href="./gan.html">Gan</a></li>
+                                            <li><a href="#">Thận</a></li>
+                                            <li><a href="./phonghan.html">Phong hàn</a></li>
+                                            <li><a href="./tyvi.html">Tỳ vị</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Phun Thêu Thẩm Mỹ</a>
+                                        <ul class="dropdown_menu">
+                                            <li><a href="../phuntheu/chanmay.html">Phun thêu mày</a></li>
+                                            <li><a href="../phuntheu/moi.html">Phun môi</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Xông Hơi Giảm mở</a>
+                                        <ul class="dropdown_menu">
+                                            <li><a href="../xonghoi/xonghoi.html">Xông hơi</a></li>
+                                            <li><a href="../xonghoi/xongchan.html">Xông chân thải độc</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" data-toggle="modal" data-target="#myModal">Khuyến mãi</a></li>
+                                    <li><a href="../../tin-tuc/tintuc.html">Tin tức</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target="#modalVideo">Góp ý phản
+                                            hồi</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile menu end -->
+            </div>
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+
+                        <div class="modal-body">
+                            <img src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057229/images/about/DuongSinhCoVaiGay_-01_xele3c.png"
+                                alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div id="modalVideo" class="modal fade" role="dialog">
+                <div class="modal-dialog" style="margin-top: 100px">
+                    <div class="modal-content">
+
+
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6" style="border-right: 5px solid #1d1e4f; text-align: center;">
+                                    <span style="font-size: 18px; font-weight: 500; color:#1d1e4f ;">Trị nám
+                                        sâu</span>
+                                    <video width="100%" height="500px" controls style="margin-top: 10px;">
+                                        <source
+                                            src="https://res.cloudinary.com/spaphucngan/video/upload/v1639057118/videos/nam_h2w4r0.mp4"
+                                            type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="col-md-6" style="text-align: center; ">
+                                    <span style="font-size: 18px; font-weight: 500;color:#1d1e4f ; ">Cảm
+                                        nhận hiệu quả
+                                        khi dưỡng sinh vùng
+                                        đầu</span>
+                                    <video width="100%" height="500px" controls style="margin-top: 10px;">
+                                        <source
+                                            src="https://res.cloudinary.com/spaphucngan/video/upload/v1639057136/videos/3_kgcark.mp4"
+                                            type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--header section end-->
+
+
+        <div class="main">
+            <div id="img-top">
+                <img src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057297/images/duongsinh/duongsinhthan_sdhbx1.jpg"
+                    width="100%" height="100%">
+            </div>
+            <div id="list">
+                <p style="font-style: italic; font-size: 16px; margin-top: 20px; ">
+                    Thận là cội nguồn của tạng phủ, là gốc rễ của 12 kinh mạch, là cơ sở của sinh mệnh, là bể chứa tinh
+                    huyết” nên việc dưỡng sinh kinh lạc vùng thận giúp cho cơ khỏe mạnh.
+                </p>
+                <div class="list-item">
+                    <p>MỤC LỤC</p>
+                    <ul>
+                        <li>
+                            <a href="#gioithieu">Giới thiệu về dịch vụ</a>
+                        </li>
+                        <li>
+                            <a href="#hieuqua">Hiệu quả mang lại</a>
+                        </li>
+                        <li>
+                            <a href="#uudiem">Ưu điểm vượt trội</a>
+                        </li>
+
+                        <li>
+                            <a href="#doituong">Đối tượng phù hợp</a>
+                        </li>
+                        <li>
+                            <a href="#quytrinh">Quy trình thực hiện</a>
+                        </li>
+                        <li>
+                            <a href="#cauhoi">Câu hỏi thường gặp</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="gioithieu">
+                <div class="welcome-about">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 col-xs-12 about-text">
+                                <div class="about-desc">
+                                    <div class="title-item">
+                                        <span>1.GIỚI THIỆU DỊCH VỤ</span>
+                                    </div>
+
+                                    <p class="text-1" style="font-size: 16px; margin-top: 9px;">
+                                        Thận được xem là một trong 5 cơ quan quan trọng nhất đối với sức khỏe con người,
+                                        tương ứng với ngũ tạng là tâm – can – tỳ – phế – thận. Theo đó, thận đảm nhận
+                                        chức năng lọc, đào thải chất cặn bã, độc tố và nước dư thừa ra ngoài cơ thể qua
+                                        nước tiểu.
+
+                                        Thận bao gồm thận âm và thận dương. Thận âm là thận tinh thuộc thủy, thận dương
+                                        là thận khí thuộc hỏa. Do đó thận chủ về tàng hình, chủ cốt tủy, chủ về sinh dục
+                                        và phát dục của cơ thể, chủ nạp khí, khai khiếu ra tai, tiền âm, hậu âm và vinh
+                                        nhuận ra tóc.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="about-img" style="margin-top: 25px; margin-bottom: 35px;">
+                                    <img src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057309/images/duongsinh/gan2_eak5ej.jpg"
+                                        width="85%" height="280px" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="hieuqua-uudiem" class="row" style="margin-top: 40px;">
+                <div id="hieuqua" class="col-md-6">
+                    <div class="title-item">
+                        <span>2. HIỆU QUẢ MANG LẠI</span>
+                    </div>
+                    <div class="list-content">
+                        <ul>
+                            <li>
+                                Nâng cao chức năng gan, thận giảm chứng tiểu đêm, …
+                            </li>
+                            <li>
+                                Cân bằng lại trạng thái cơ thể và đẩy ngược các ion có hại ra ngoài, tăng cường hoạt
+                                huyết.
+                            </li>
+                            <li>
+                                Nhanh chóng xoa dịu căng cơ, đau nhức vùng lưng eo, cải thiện tê bì tay, chân.
+                            </li>
+                            <li>
+                                Liệu trình THẬN có khả năng phục hồi chức năng thận và cũng cố hệ sức khỏe toàn diện,
+                                bằng cách tác động vào các điểm huyệt quan trọng chạy dọc cơ thể, khơi thông kênh năng
+                                lượng tiềm ẩn sâu bên trong.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="uudiem" class="col-md-6">
+                    <div class="title-item">
+                        <span>3. ƯU ĐIỂM VƯỢT TRỘI</span>
+                    </div>
+                    <div class="list-content">
+                        <ul>
+                            <li>
+                                Mang lại cảm giác thư thái, nhẹ nhàng, giúp thanh lọc cơ thể
+                            </li>
+                            <li>
+                                Các bước thực hiện nhẹ nhàng, cẩn thận
+                            </li>
+                            <li>
+                                Không cần nghỉ dưỡng, tiết kiệm thời gian
+                            </li>
+                            <li>
+                                Duy trì kết quả ổn định, lâu dài
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-12" id="doituong" style="margin-top: 40px;">
+                    <div class="title-item">
+                        <span>4. ĐỐI TƯỢNG PHÙ HỢP</span>
+                    </div>
+                    <div class="list-content">
+
+                        <ul>
+                            <li>
+                                Những người sử dụng nhiều rượu bia, thuốc lá
+                            </li>
+                            <li>
+                                Những đối tượng mắc bệnh tiểu đường có nguy cơ mắc bệnh thận yếu cao hơn so với người
+                                bình thường;
+                            </li>
+                            <li>
+                                Chế độ ăn uống, thói quen sinh hoạt không điều độ
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12" id="quytrinh" style="margin-top: 40px;">
+                    <div class="title-item">
+                        <span>5. QUY TRÌNH THỰC HIỆN</span>
+                    </div>
+                    <div>
+
+                        <div class="row service-content pt-5">
+                            <div class=" col-sm-4  ">
+                                <div class="box  ">
+                                    <img src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057309/images/duongsinh/gan2_eak5ej.jpg"
+                                        class="img-responsive image  " />
+                                    <p class="title-products">1. Ấn huyệt</p>
+                                </div>
+                            </div>
+                            <div class=" col-sm-4  ">
+                                <div class="box  ">
+                                    <img src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057306/images/duongsinh/phonghan_ttxx5c.jpg"
+                                        class="img-responsive image  " />
+                                    <p class="title-products">2. Massage </p>
+                                </div>
+                            </div>
+                            <div class=" col-sm-4  ">
+                                <div class="box  ">
+                                    <img src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057301/images/duongsinh/gan3_i3xfy7.jpg"
+                                        class="img-responsive image  " />
+                                    <p class="title-products">3. Thưởng trà</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 15px;">
+                        <span style="font-size: 18px; font-weight: 550 !important;">Video tham khảo:
+                            <ul style="margin-top:10px; margin-left: 20px">
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target="#videoModal"><i class="fab fa-youtube"
+                                            style="color: red;"></i>&nbsp;Dưỡng sinh vùng thận</a>
+                                </li>
+                            </ul>
+
+                        </span>
+                        <!-- <video src="https://res.cloudinary.com/spaphucngan/video/upload/v1639057118/videos/nam_h2w4r0.mp4"></video> -->
+                    </div>
+                    <div id="videoModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog" style="margin-top: 100px">
+                            <div class="modal-content">
+
+
+                                <div class="modal-body">
+                                    <video width="100%" height="500px" controls>
+                                        <source
+                                            src="https://res.cloudinary.com/spaphucngan/video/upload/v1639057043/videos/1_ieuoho.mp4"
+                                            type="video/mp4">
+
+                                    </video>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12" id="cauhoi" style="margin-top: 50px;">
+                        <div class="title-item">
+                            <span>6. CÂU HỎI THƯỜNG GẶP</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="title-item" style="border: none !important; margin-top: 20px;">
+                                    <span>1. Những triệu chứng thường thấy?</span>
+                                </div>
+                                <div class="list-content">
+                                    <ul>
+                                        <li>
+                                            Rùng mình, lạnh tứ chi
+                                        </li>
+                                        <li>
+                                            Hoa mắt, mất ngủ, gặp ác mộng nhiều
+                                        </li>
+                                        <li>
+                                            Tiểu nhiều về đêm
+                                        </li>
+                                        <li>
+                                            Chóng mặt, ù tai
+                                        </li>
+                                        <li>
+                                            Lưng đau, chân mỏi
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="title-item" style="border: none !important; margin-top: 20px;">
+                                    <span>2. Thời gian điều trị và phục hồi? </span>
+                                </div>
+                                <div class="list-content">
+                                    <span>
+                                        Thời gian điều trị và phục hồi phụ thuộc vào tình trạng và bệnh lý của mỗi
+                                        người. Nếu kiên trì thực hiện phương pháp cải thiện cách sinh hoạt thì bệnh lý
+                                        sẻ được cải thiện rỏ rệt.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!--footer start-->
+        <div class="footer">
+            <div class="footer-top ptb-50">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single-footer contact">
+                                <div class="footer-title">
+                                    <img src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057373/images/logo/logo_dzoj0z.png"
+                                        width="100%" height="100px">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-footer open-hours">
+                                <div class="footer-title">
+                                    <h3>Liên hệ</h3>
+                                </div>
+                                <p style="color: white;">Khu dân cư 91b - 164 Nguyễn Hiền, Phường An Khánh - Quận Ninh
+                                    Kiều, Thành Phố Cần Thơ </p>
+                                <ul>
+                                    <li>Hotline: 094 527 93 67 - 091 218 18 31 </li>
+                                    <li>Website: spaphucngan.vn</li>
+                                    <li><a href="https://www.facebook.com/phucngan.spa"> <i
+                                                class="fab fa-facebook fa-2x"></i> /phucngan.spa</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-12">
+                            <div class="single-footer quick-links">
+                                <div class="footer-title">
+                                    <h3>Thời gian</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#">Thứ Hai Đến Chủ Nhật</a></li>
+                                    <li><a href="#">8h00 đến 20h00</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single-footer widget">
+                                <div class="footer-title">
+                                    <h3>Hình ảnh</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#"><img
+                                                src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057328/images/gallery/1_oohybr.jpg"
+                                                width="100%" height="60px" alt=""></a></li>
+                                    <li><a href="#"><img
+                                                src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057309/images/gallery/2_ujasku.jpg"
+                                                width="100%" height="60px" alt=""></a></li>
+                                    <li><a href="#"><img
+                                                src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057310/images/gallery/3_buol8s.jpg"
+                                                width="100%" height="60px" alt=""></a></li>
+                                    <li><a href="#"><img
+                                                src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057310/images/gallery/4_gkpjbu.jpg"
+                                                width="100%" height="60px" alt=""></a></li>
+                                    <li><a href="#"><img
+                                                src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057310/images/gallery/5_pwlsqg.jpg"
+                                                width="100%" height="60px" alt=""></a></li>
+                                    <li><a href="#"><img
+                                                src="https://res.cloudinary.com/spaphucngan/image/upload/v1639057311/images/gallery/6_p2hbn8.jpg"
+                                                width="100%" height="60px" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer end-->
+
+    </div>
+
+
+    <!-- Placed js at the end of the document so the pages load faster -->
+
+
+    <!-- All js plugins included in this file. -->
+
+
+    <script src="../../js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/jquery.nivo.slider.pack.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
+    <script src="../../js/ajax-mail.js"></script>
+    <script src="../../js/jquery.magnific-popup.js"></script>
+    <script src="../../js/jquery.counterup.min.js"></script>
+    <script src="../../js/waypoints.min.js"></script>
+    <script src="../../js/plugins.js"></script>
+    <script src="../../js/main.js"></script>
+
+</body>
+
+</html>

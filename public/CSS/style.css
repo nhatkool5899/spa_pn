@@ -1,0 +1,162 @@
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#img-top {
+    width: 100%;
+}
+
+#gioithieu {
+    margin-top: 20px;
+
+}
+
+.title-gt p {
+    margin: 10px 0;
+    border-bottom: 3px #00216c solid;
+    color: #fff;
+}
+
+.title-gt p span {
+    background: #00216c;
+    padding: 5px 20px;
+    margin: 0;
+    color: #fff;
+    min-width: 100px;
+    border-top-right-radius: 10px;
+    font-size: 20px;
+}
+
+#dichvu {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.first {
+    margin-top: 50px !important;
+}
+
+.about-dv {
+    margin-top: 150px;
+}
+
+.about-dv .container {
+
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #0d47a1; 
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+  }
+  p.title-products{
+    color: white;
+  }
+  .main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#img-top {
+    width: 100%;
+}
+
+.muc-luc>.col>.col-inner {
+    background-color: #d5e5f5 !important;
+    padding: 20px !important;
+}
+
+.entry-content ol li {
+    margin-left: 1.3em;
+}
+
+li {
+    margin-bottom: 0.6em;
+}
+
+.muc-luc {
+    border-radius: 15px !important;
+}
+
+.list-item {
+    width: 100%;
+    background-color: rgb(211, 246, 245);
+    height: 340px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.list-item p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.list-item ul {
+    padding-left: 15px;
+}
+
+.list-item ul li {
+    list-style: decimal;
+    font-size: 16px;
+    padding-bottom: 8px;
+
+}
+
+#gioithieu {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title-item {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    border-bottom: 2px solid #23527c;
+    padding-bottom: 7px !important;
+}
+
+.list-content {
+    color: #757575;
+    font-size: 16px;
+    margin-top: 9px;
+
+
+}
+
+.list-content ul {
+    padding-left: 20px;
+}
+
+.list-content ul li::before {
+    content: "\2022";
+    color: #23527c;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+#hieuqua-uudiem {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#ketqua {
+    width: 100%;
+    margin: 0 auto;
+
+
+}
